@@ -1,0 +1,37 @@
+﻿<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://norull.com">
+	<valueType name="DateTimeType" base="xs:dateTime" variety="Atomic"/>
+	<valueType name="DescriptionType" base="xs:string" variety="Atomic" maxLength="50"/>
+	<valueType name="FlagType" base="xs:boolean" variety="Atomic"/>
+	<valueType name="IdType" base="xs:normalizedString" variety="Atomic" maxLength="40"/>
+	<valueType name="NumberType" base="xs:string" variety="Atomic" maxLength="9"/>
+	<valueType name="QuantityType" base="xs:decimal" variety="Atomic"/>
+	<objectType name="Objects">
+		<property xmlns:d3p1="http://norull.com" name="Object" type="d3p1:Object" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="Object">
+		<property xmlns:d3p1="http://norull.com" name="Id" type="d3p1:IdType"/>
+		<property xmlns:d3p1="http://norull.com" name="DeletionMark" type="d3p1:FlagType"/>
+	</objectType>
+	<objectType xmlns:d2p1="http://norull.com" name="Counterparty" base="d2p1:Object">
+		<property name="Description" type="d2p1:DescriptionType"/>
+	</objectType>
+	<objectType xmlns:d2p1="http://norull.com" name="Product" base="d2p1:Object">
+		<property name="Description" type="d2p1:DescriptionType"/>
+		<property name="SKU" type="d2p1:DescriptionType" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType xmlns:d2p1="http://norull.com" name="SupplierInvoice" base="d2p1:Object">
+		<property name="Number" type="d2p1:NumberType"/>
+		<property name="Date" type="d2p1:DateTimeType"/>
+		<property name="Counterparty" type="d2p1:IdType"/>
+		<property name="Inventory">
+			<typeDef xsi:type="ObjectType">
+				<property name="InventoryItem" lowerBound="0" upperBound="-1" nillable="true">
+					<typeDef xsi:type="ObjectType">
+						<property name="Product" type="d2p1:IdType"/>
+						<property name="Quantity" type="d2p1:QuantityType"/>
+					</typeDef>
+				</property>
+			</typeDef>
+		</property>
+	</objectType>
+</package>

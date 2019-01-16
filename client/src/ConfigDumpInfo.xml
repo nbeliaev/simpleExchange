@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.6">
+	<ConfigVersions>
+		<Metadata name="Catalog.Counterparties" id="8285aca2-9e72-4c63-9b13-2c84b48ae55d" configVersion="574a71ca230dfd4d901236cb818f81b200000000"/>
+		<Metadata name="Catalog.Products" id="a47632f6-b4cc-4d28-92ed-08b93daeb956" configVersion="e2648c24935f284589d8b8ea3aff2e0500000000">
+			<Metadata name="Catalog.Products.Attribute.SKU" id="24859681-31ba-407c-91dc-6daec687338c"/>
+		</Metadata>
+		<Metadata name="CommonForm.ExchangeManagement" id="71d3d969-b44e-416d-b9b8-6537ab9da1c9" configVersion="0b012ac83d656e45bd0519f7064ee59200000000"/>
+		<Metadata name="CommonForm.ExchangeManagement.Form" id="71d3d969-b44e-416d-b9b8-6537ab9da1c9.0" configVersion="8ca1ab7bcf75e649a164652ed5d44b7c00000000"/>
+		<Metadata name="CommonModule.CommonUse" id="63b3df86-6240-43d3-9854-ac228e3bc2e0" configVersion="37ffacfb538c1a4cacd9982ccf4fc50e00000000"/>
+		<Metadata name="CommonModule.CommonUse.Module" id="63b3df86-6240-43d3-9854-ac228e3bc2e0.0" configVersion="e8430869c2a039448d139acd835ddf3100000000"/>
+		<Metadata name="CommonModule.ExchangeWithoutRules" id="c43ee121-d318-414d-85cc-26d2e1455cc6" configVersion="2ecf122795bf07409e62ee11b70def7800000000"/>
+		<Metadata name="CommonModule.ExchangeWithoutRules.Module" id="c43ee121-d318-414d-85cc-26d2e1455cc6.0" configVersion="cf57243d74feae49b67377329074381700000000"/>
+		<Metadata name="Configuration.Client" id="ed466669-6c97-4c50-a5b1-90415db20a2a" configVersion="56e89f2a25ded74ab012c85e71f2e84b00000000"/>
+		<Metadata name="Configuration.Client.ClientApplicationInterface" id="90e93b62-d015-4a54-b6c8-e1abaadd7477.b" configVersion="bba2efa35d704b46864ff4dd39d698c100000000"/>
+		<Metadata name="Configuration.Client.HomePageWorkArea" id="90e93b62-d015-4a54-b6c8-e1abaadd7477.8" configVersion="b2c9ee801283454ab04b4eab39986aa900000000"/>
+		<Metadata name="Document.SupplierInvoice" id="c76ebeec-aee5-44d0-bb5b-82ccc7edec8c" configVersion="ba3dbe86f0e1aa4bbc180d5f1908736300000000">
+			<Metadata name="Document.SupplierInvoice.Attribute.Counterparty" id="a92b95b3-4ff2-4b0f-bc65-28a9def51ef9"/>
+			<Metadata name="Document.SupplierInvoice.TabularSection.Inventory.Attribute.Quantity" id="afa81bfe-f3a4-49c8-ba07-d952508d520b"/>
+			<Metadata name="Document.SupplierInvoice.TabularSection.Inventory.Attribute.Product" id="b9cfa4b6-579e-4443-bbf6-c08e7ffd1f4f"/>
+			<Metadata name="Document.SupplierInvoice.TabularSection.Inventory" id="e3f26626-dc66-4bbf-925a-d777ec7dcc44"/>
+		</Metadata>
+		<Metadata name="ExchangePlan.NoRull" id="07af69e0-64ed-45c3-84e7-15d308f374a5" configVersion="a6ce8030f6c1914da6ec7783a9ab752400000000"/>
+		<Metadata name="ExchangePlan.NoRull.Content" id="07af69e0-64ed-45c3-84e7-15d308f374a5.1" configVersion="0c4b2d14f991694593084a4a4cda28f800000000"/>
+		<Metadata name="ExchangePlan.NoRull.Form.NodeForm" id="64ccbfd4-1e12-43b7-88f5-e5d87c9c68a0" configVersion="bf101ac329298b4b911762c5bc21c30f00000000"/>
+		<Metadata name="ExchangePlan.NoRull.Form.NodeForm.Form" id="64ccbfd4-1e12-43b7-88f5-e5d87c9c68a0.0" configVersion="a4120141683f3849ad9cbdddd60d1c8e00000000"/>
+		<Metadata name="ExchangePlan.NoRull.ManagerModule" id="07af69e0-64ed-45c3-84e7-15d308f374a5.3" configVersion="c4688bcb30f1154887e055f0544e48d400000000"/>
+		<Metadata name="ExchangePlan.NoRull.ObjectModule" id="07af69e0-64ed-45c3-84e7-15d308f374a5.2" configVersion="5fe4f51076b2f84b8fac97955f1cba3600000000"/>
+		<Metadata name="Language.English" id="f8ea84ef-dcee-4f06-a800-2f2b5edd4ba2" configVersion="83e994f80468ca40a69e5ca7e8033bed00000000"/>
+		<Metadata name="Language.Russian" id="74a4652e-c07c-4af4-89ff-ab18994a87ab" configVersion="1368c817d748df4c9a5bb2960e73e6eb00000000"/>
+		<Metadata name="Role.FullRights" id="7dea4b06-7084-4e0d-9a09-1c23c6c0edd0" configVersion="133243b2feaf3347be35e54c2ee2b24700000000"/>
+		<Metadata name="Role.FullRights.Rights" id="7dea4b06-7084-4e0d-9a09-1c23c6c0edd0.0" configVersion="b14e288305851a4f9745343d7a704dcc00000000"/>
+		<Metadata name="Subsystem.ExchangeObjects" id="780bc6b2-6f29-40c6-bd53-a5727dfeb641" configVersion="d207522c46200e428526fc66fc634a3700000000"/>
+		<Metadata name="Subsystem.ExchangeWithoutRules" id="eebb3fd9-025f-47e1-b09b-ca2f42a79b73" configVersion="0fef492a5efdb54dac8332e8aec6895100000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
