@@ -10,4 +10,4 @@ This implementation works only on platform 1C:Enterprise version 8.3.10 or above
 Download server and client sources. Load configuration from files in the empty solution of the application 1C:Enterprise.
 
 ---
-[Author](fr13.dev@gmail.com)
+[email me](mailto:fr13.dev@gmail.com)
